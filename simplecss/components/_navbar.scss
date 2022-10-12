@@ -16,6 +16,8 @@
 
   .container {
     @extend %flex-layout;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
 }
 
